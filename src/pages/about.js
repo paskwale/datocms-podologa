@@ -23,7 +23,7 @@ const About = ({ data: { about } }) => (
       </div>
     </article>
   </Layout>
-)
+);
 
 export default About
 
@@ -47,4 +47,4 @@ export const query = graphql`
       }
     }
   }
-`
+`;

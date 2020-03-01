@@ -26,7 +26,7 @@ const IndexPage = ({ data }) => (
       ))}
     </Masonry>
   </Layout>
-)
+);
 
 export default IndexPage
 
@@ -48,4 +48,4 @@ export const query = graphql`
       }
     }
   }
-`
+`;
